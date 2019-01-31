@@ -1,0 +1,1235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pies /> 1`] = `
+Pies {
+  "context": Object {},
+  "fetch": [Function],
+  "getColumnSearchProps": [Function],
+  "onSearch": [Function],
+  "props": Object {},
+  "refs": Object {},
+  "setState": [Function],
+  "state": Object {
+    "keyword": "",
+    "loading": true,
+    "pagination": Object {
+      "current": 1,
+      "defaultPageSize": 5,
+      "pageSizeOptions": Array [
+        "5",
+        "10",
+        "15",
+      ],
+      "showSizeChanger": true,
+      "total": 1,
+    },
+    "pies": Array [],
+    "stores": Array [],
+  },
+  "tableColumns": Array [
+    Object {
+      "dataIndex": "displayName",
+      "filterDropdown": [Function],
+      "render": [Function],
+      "sorter": true,
+      "title": "Pie Name",
+    },
+    Object {
+      "dataIndex": "quantity",
+      "render": [Function],
+      "sorter": true,
+      "title": "Quantity",
+    },
+    Object {
+      "dataIndex": "price",
+      "render": [Function],
+      "sorter": true,
+      "title": "Price",
+    },
+    Object {
+      "dataIndex": "isPieOfTheDay",
+      "render": [Function],
+      "sorter": true,
+      "title": "Pie Of The Day",
+    },
+    Object {
+      "dataIndex": "rating",
+      "render": [Function],
+      "title": "Store Rating",
+    },
+    Object {
+      "dataIndex": "address",
+      "render": [Function],
+      "title": "Store Address",
+    },
+  ],
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_element": <Pies />,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_newState": Object {
+        "keyword": "",
+        "loading": true,
+        "pagination": Object {
+          "current": 1,
+          "defaultPageSize": 5,
+          "pageSizeOptions": Array [
+            "5",
+            "10",
+            "15",
+          ],
+          "showSizeChanger": true,
+          "total": 1,
+        },
+        "pies": Array [],
+        "stores": Array [],
+      },
+      "_rendered": <React.Fragment>
+        <Table
+          bordered={false}
+          className=""
+          columns={
+            Array [
+              Object {
+                "dataIndex": "displayName",
+                "filterDropdown": [Function],
+                "render": [Function],
+                "sorter": true,
+                "title": "Pie Name",
+              },
+              Object {
+                "dataIndex": "quantity",
+                "render": [Function],
+                "sorter": true,
+                "title": "Quantity",
+              },
+              Object {
+                "dataIndex": "price",
+                "render": [Function],
+                "sorter": true,
+                "title": "Price",
+              },
+              Object {
+                "dataIndex": "isPieOfTheDay",
+                "render": [Function],
+                "sorter": true,
+                "title": "Pie Of The Day",
+              },
+              Object {
+                "dataIndex": "rating",
+                "render": [Function],
+                "title": "Store Rating",
+              },
+              Object {
+                "dataIndex": "address",
+                "render": [Function],
+                "title": "Store Address",
+              },
+            ]
+          }
+          dataSource={Array []}
+          indentSize={20}
+          loading={true}
+          locale={Object {}}
+          onChange={[Function]}
+          pagination={
+            Object {
+              "current": 1,
+              "defaultPageSize": 5,
+              "pageSizeOptions": Array [
+                "5",
+                "10",
+                "15",
+              ],
+              "showSizeChanger": true,
+              "total": 1,
+            }
+          }
+          rowKey={[Function]}
+          showHeader={true}
+          size="default"
+          sortDirections={
+            Array [
+              "ascend",
+              "descend",
+            ]
+          }
+          useFixedHeader={false}
+        />
+      </React.Fragment>,
+      "_rendering": false,
+      "_updater": [Circular],
+    },
+  },
+  Symbol(enzyme.__setState__): [Function],
+}
+`;
+
+exports[`<Pies /> 2`] = `
+Pies {
+  "context": Object {},
+  "fetch": [Function],
+  "getColumnSearchProps": [Function],
+  "onSearch": [Function],
+  "props": Object {},
+  "refs": Object {},
+  "setState": [Function],
+  "state": Object {
+    "keyword": "",
+    "loading": false,
+    "pagination": Object {
+      "current": 1,
+      "defaultPageSize": 5,
+      "pageSizeOptions": Array [
+        "5",
+        "10",
+        "15",
+      ],
+      "showSizeChanger": true,
+      "total": 28,
+    },
+    "pies": Array [
+      Object {
+        "displayName": "Beef",
+        "id": 1,
+        "isPieOfTheDay": true,
+        "price": 300,
+        "priceString": "$3.00",
+        "quantity": 5,
+        "storeId": 1,
+      },
+      Object {
+        "displayName": "Beef and curry",
+        "id": 1,
+        "price": 250,
+        "priceString": "$2.50",
+        "quantity": 2,
+        "storeId": 1,
+      },
+      Object {
+        "displayName": "Chicken",
+        "id": 1,
+        "price": 270,
+        "priceString": "$2.70",
+        "quantity": 0,
+        "storeId": 1,
+      },
+      Object {
+        "displayName": "Beef and bacon",
+        "id": 1,
+        "price": 290,
+        "priceString": "$2.90",
+        "quantity": 3,
+        "storeId": 1,
+      },
+      Object {
+        "displayName": "Kangaroo",
+        "id": 1,
+        "price": 300,
+        "priceString": "$3.00",
+        "quantity": 1,
+        "storeId": 1,
+      },
+      Object {
+        "displayName": "Beef",
+        "id": 1,
+        "price": 300,
+        "priceString": "$3.00",
+        "quantity": 0,
+        "storeId": 2,
+      },
+      Object {
+        "displayName": "Beef and curry",
+        "id": 1,
+        "isPieOfTheDay": true,
+        "price": 250,
+        "priceString": "$2.50",
+        "quantity": 1,
+        "storeId": 2,
+      },
+      Object {
+        "displayName": "Chicken",
+        "id": 1,
+        "price": 350,
+        "priceString": "$3.50",
+        "quantity": 5,
+        "storeId": 2,
+      },
+      Object {
+        "displayName": "Beef and bacon",
+        "id": 1,
+        "price": 320,
+        "priceString": "$3.20",
+        "quantity": 2,
+        "storeId": 2,
+      },
+      Object {
+        "displayName": "Kangaroo",
+        "id": 1,
+        "price": 370,
+        "priceString": "$3.70",
+        "quantity": 2,
+        "storeId": 2,
+      },
+    ],
+    "stores": Array [
+      Object {
+        "address": "410 Collins Street",
+        "city": "Melbourne",
+        "coords": Object {
+          "latitude": "-37.816981",
+          "longitude": "144.9584893",
+        },
+        "displayName": "Eleven-7",
+        "id": 1,
+        "mobile": "0481233123",
+        "postcode": "3000",
+        "rating": 10,
+        "state": "Victoria",
+      },
+      Object {
+        "address": "366 Lonsdale Street",
+        "city": "Melbourne",
+        "coords": Object {
+          "latitude": "-37.8128448",
+          "longitude": "144.9604634",
+        },
+        "displayName": "Brian's Pies",
+        "id": 2,
+        "mobile": "0486162311",
+        "postcode": "3000",
+        "rating": 8,
+        "state": "Victoria",
+      },
+    ],
+  },
+  "tableColumns": Array [
+    Object {
+      "dataIndex": "displayName",
+      "filterDropdown": [Function],
+      "render": [Function],
+      "sorter": true,
+      "title": "Pie Name",
+    },
+    Object {
+      "dataIndex": "quantity",
+      "render": [Function],
+      "sorter": true,
+      "title": "Quantity",
+    },
+    Object {
+      "dataIndex": "price",
+      "render": [Function],
+      "sorter": true,
+      "title": "Price",
+    },
+    Object {
+      "dataIndex": "isPieOfTheDay",
+      "render": [Function],
+      "sorter": true,
+      "title": "Pie Of The Day",
+    },
+    Object {
+      "dataIndex": "rating",
+      "render": [Function],
+      "title": "Store Rating",
+    },
+    Object {
+      "dataIndex": "address",
+      "render": [Function],
+      "title": "Store Address",
+    },
+  ],
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_element": <Pies />,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_newState": Object {
+        "keyword": "",
+        "loading": false,
+        "pagination": Object {
+          "current": 1,
+          "defaultPageSize": 5,
+          "pageSizeOptions": Array [
+            "5",
+            "10",
+            "15",
+          ],
+          "showSizeChanger": true,
+          "total": 28,
+        },
+        "pies": Array [
+          Object {
+            "displayName": "Beef",
+            "id": 1,
+            "isPieOfTheDay": true,
+            "price": 300,
+            "priceString": "$3.00",
+            "quantity": 5,
+            "storeId": 1,
+          },
+          Object {
+            "displayName": "Beef and curry",
+            "id": 1,
+            "price": 250,
+            "priceString": "$2.50",
+            "quantity": 2,
+            "storeId": 1,
+          },
+          Object {
+            "displayName": "Chicken",
+            "id": 1,
+            "price": 270,
+            "priceString": "$2.70",
+            "quantity": 0,
+            "storeId": 1,
+          },
+          Object {
+            "displayName": "Beef and bacon",
+            "id": 1,
+            "price": 290,
+            "priceString": "$2.90",
+            "quantity": 3,
+            "storeId": 1,
+          },
+          Object {
+            "displayName": "Kangaroo",
+            "id": 1,
+            "price": 300,
+            "priceString": "$3.00",
+            "quantity": 1,
+            "storeId": 1,
+          },
+          Object {
+            "displayName": "Beef",
+            "id": 1,
+            "price": 300,
+            "priceString": "$3.00",
+            "quantity": 0,
+            "storeId": 2,
+          },
+          Object {
+            "displayName": "Beef and curry",
+            "id": 1,
+            "isPieOfTheDay": true,
+            "price": 250,
+            "priceString": "$2.50",
+            "quantity": 1,
+            "storeId": 2,
+          },
+          Object {
+            "displayName": "Chicken",
+            "id": 1,
+            "price": 350,
+            "priceString": "$3.50",
+            "quantity": 5,
+            "storeId": 2,
+          },
+          Object {
+            "displayName": "Beef and bacon",
+            "id": 1,
+            "price": 320,
+            "priceString": "$3.20",
+            "quantity": 2,
+            "storeId": 2,
+          },
+          Object {
+            "displayName": "Kangaroo",
+            "id": 1,
+            "price": 370,
+            "priceString": "$3.70",
+            "quantity": 2,
+            "storeId": 2,
+          },
+        ],
+        "stores": Array [
+          Object {
+            "address": "410 Collins Street",
+            "city": "Melbourne",
+            "coords": Object {
+              "latitude": "-37.816981",
+              "longitude": "144.9584893",
+            },
+            "displayName": "Eleven-7",
+            "id": 1,
+            "mobile": "0481233123",
+            "postcode": "3000",
+            "rating": 10,
+            "state": "Victoria",
+          },
+          Object {
+            "address": "366 Lonsdale Street",
+            "city": "Melbourne",
+            "coords": Object {
+              "latitude": "-37.8128448",
+              "longitude": "144.9604634",
+            },
+            "displayName": "Brian's Pies",
+            "id": 2,
+            "mobile": "0486162311",
+            "postcode": "3000",
+            "rating": 8,
+            "state": "Victoria",
+          },
+        ],
+      },
+      "_rendered": <React.Fragment>
+        <Table
+          bordered={false}
+          className=""
+          columns={
+            Array [
+              Object {
+                "dataIndex": "displayName",
+                "filterDropdown": [Function],
+                "render": [Function],
+                "sorter": true,
+                "title": "Pie Name",
+              },
+              Object {
+                "dataIndex": "quantity",
+                "render": [Function],
+                "sorter": true,
+                "title": "Quantity",
+              },
+              Object {
+                "dataIndex": "price",
+                "render": [Function],
+                "sorter": true,
+                "title": "Price",
+              },
+              Object {
+                "dataIndex": "isPieOfTheDay",
+                "render": [Function],
+                "sorter": true,
+                "title": "Pie Of The Day",
+              },
+              Object {
+                "dataIndex": "rating",
+                "render": [Function],
+                "title": "Store Rating",
+              },
+              Object {
+                "dataIndex": "address",
+                "render": [Function],
+                "title": "Store Address",
+              },
+            ]
+          }
+          dataSource={
+            Array [
+              Object {
+                "displayName": "Beef",
+                "id": 1,
+                "isPieOfTheDay": true,
+                "price": 300,
+                "priceString": "$3.00",
+                "quantity": 5,
+                "storeId": 1,
+              },
+              Object {
+                "displayName": "Beef and curry",
+                "id": 1,
+                "price": 250,
+                "priceString": "$2.50",
+                "quantity": 2,
+                "storeId": 1,
+              },
+              Object {
+                "displayName": "Chicken",
+                "id": 1,
+                "price": 270,
+                "priceString": "$2.70",
+                "quantity": 0,
+                "storeId": 1,
+              },
+              Object {
+                "displayName": "Beef and bacon",
+                "id": 1,
+                "price": 290,
+                "priceString": "$2.90",
+                "quantity": 3,
+                "storeId": 1,
+              },
+              Object {
+                "displayName": "Kangaroo",
+                "id": 1,
+                "price": 300,
+                "priceString": "$3.00",
+                "quantity": 1,
+                "storeId": 1,
+              },
+              Object {
+                "displayName": "Beef",
+                "id": 1,
+                "price": 300,
+                "priceString": "$3.00",
+                "quantity": 0,
+                "storeId": 2,
+              },
+              Object {
+                "displayName": "Beef and curry",
+                "id": 1,
+                "isPieOfTheDay": true,
+                "price": 250,
+                "priceString": "$2.50",
+                "quantity": 1,
+                "storeId": 2,
+              },
+              Object {
+                "displayName": "Chicken",
+                "id": 1,
+                "price": 350,
+                "priceString": "$3.50",
+                "quantity": 5,
+                "storeId": 2,
+              },
+              Object {
+                "displayName": "Beef and bacon",
+                "id": 1,
+                "price": 320,
+                "priceString": "$3.20",
+                "quantity": 2,
+                "storeId": 2,
+              },
+              Object {
+                "displayName": "Kangaroo",
+                "id": 1,
+                "price": 370,
+                "priceString": "$3.70",
+                "quantity": 2,
+                "storeId": 2,
+              },
+            ]
+          }
+          indentSize={20}
+          loading={false}
+          locale={Object {}}
+          onChange={[Function]}
+          pagination={
+            Object {
+              "current": 1,
+              "defaultPageSize": 5,
+              "pageSizeOptions": Array [
+                "5",
+                "10",
+                "15",
+              ],
+              "showSizeChanger": true,
+              "total": 28,
+            }
+          }
+          rowKey={[Function]}
+          showHeader={true}
+          size="default"
+          sortDirections={
+            Array [
+              "ascend",
+              "descend",
+            ]
+          }
+          useFixedHeader={false}
+        />
+      </React.Fragment>,
+      "_rendering": false,
+      "_updater": [Circular],
+    },
+  },
+  Symbol(enzyme.__setState__): [Function],
+}
+`;
+
+exports[`<Pies /> 3`] = `
+Pies {
+  "context": Object {},
+  "fetch": [Function],
+  "getColumnSearchProps": [Function],
+  "onSearch": [Function],
+  "props": Object {},
+  "refs": Object {},
+  "setState": [Function],
+  "state": Object {
+    "keyword": "",
+    "loading": false,
+    "pagination": Object {
+      "current": 2,
+      "defaultPageSize": 10,
+      "pageSizeOptions": Array [
+        "5",
+        "10",
+        "15",
+      ],
+      "showSizeChanger": true,
+      "total": 28,
+    },
+    "pies": Array [
+      Object {
+        "displayName": "Pork",
+        "id": 1,
+        "price": 400,
+        "priceString": "$4.00",
+        "quantity": 2,
+        "storeId": 2,
+      },
+      Object {
+        "displayName": "Beef and curry",
+        "id": 1,
+        "price": 450,
+        "priceString": "$4.50",
+        "quantity": 1,
+        "storeId": 3,
+      },
+      Object {
+        "displayName": "Chicken",
+        "id": 1,
+        "price": 400,
+        "priceString": "$4.00",
+        "quantity": 5,
+        "storeId": 3,
+      },
+      Object {
+        "displayName": "Beef and bacon",
+        "id": 1,
+        "price": 300,
+        "priceString": "$3.00",
+        "quantity": 2,
+        "storeId": 3,
+      },
+      Object {
+        "displayName": "Beef and curry",
+        "id": 1,
+        "isPieOfTheDay": true,
+        "price": 200,
+        "priceString": "$2.00",
+        "quantity": 1,
+        "storeId": 3,
+      },
+      Object {
+        "displayName": "Chicken",
+        "id": 1,
+        "price": 240,
+        "priceString": "$2.40",
+        "quantity": 5,
+        "storeId": 3,
+      },
+      Object {
+        "displayName": "Beef and bacon",
+        "id": 1,
+        "price": 280,
+        "priceString": "$2.80",
+        "quantity": 2,
+        "storeId": 3,
+      },
+      Object {
+        "displayName": "Beef and curry",
+        "id": 1,
+        "isPieOfTheDay": true,
+        "price": 280,
+        "priceString": "$2.80",
+        "quantity": 1,
+        "storeId": 4,
+      },
+      Object {
+        "displayName": "Chicken",
+        "id": 1,
+        "price": 230,
+        "priceString": "$2.30",
+        "quantity": 5,
+        "storeId": 4,
+      },
+      Object {
+        "displayName": "Beef and bacon",
+        "id": 1,
+        "price": 230,
+        "priceString": "$2.30",
+        "quantity": 1,
+        "storeId": 4,
+      },
+    ],
+    "stores": Array [
+      Object {
+        "address": "410 Collins Street",
+        "city": "Melbourne",
+        "coords": Object {
+          "latitude": "-37.816981",
+          "longitude": "144.9584893",
+        },
+        "displayName": "Eleven-7",
+        "id": 1,
+        "mobile": "0481233123",
+        "postcode": "3000",
+        "rating": 10,
+        "state": "Victoria",
+      },
+      Object {
+        "address": "366 Lonsdale Street",
+        "city": "Melbourne",
+        "coords": Object {
+          "latitude": "-37.8128448",
+          "longitude": "144.9604634",
+        },
+        "displayName": "Brian's Pies",
+        "id": 2,
+        "mobile": "0486162311",
+        "postcode": "3000",
+        "rating": 8,
+        "state": "Victoria",
+      },
+      Object {
+        "address": "410 Collins Street",
+        "city": "Melbourne",
+        "coords": Object {
+          "latitude": "-37.816981",
+          "longitude": "144.9584893",
+        },
+        "displayName": "Eleven-7",
+        "id": 1,
+        "mobile": "0481233123",
+        "postcode": "3000",
+        "rating": 10,
+        "state": "Victoria",
+      },
+      Object {
+        "address": "366 Lonsdale Street",
+        "city": "Melbourne",
+        "coords": Object {
+          "latitude": "-37.8128448",
+          "longitude": "144.9604634",
+        },
+        "displayName": "Brian's Pies",
+        "id": 2,
+        "mobile": "0486162311",
+        "postcode": "3000",
+        "rating": 8,
+        "state": "Victoria",
+      },
+      Object {
+        "address": "345 Bourke Street",
+        "city": "Melbourne",
+        "coords": Object {
+          "latitude": "-37.8130036",
+          "longitude": "144.9646799",
+        },
+        "displayName": "Hungry Jake's",
+        "id": 3,
+        "mobile": "0412512333",
+        "postcode": "3000",
+        "rating": 9,
+        "state": "Victoria",
+      },
+      Object {
+        "address": "211 La Trobe Street",
+        "city": "Melbourne",
+        "coords": Object {
+          "latitude": "-37.8100285",
+          "longitude": "144.9628667",
+        },
+        "displayName": "Texcal",
+        "id": 4,
+        "mobile": "0498124512",
+        "postcode": "3000",
+        "rating": 3,
+        "state": "Victoria",
+      },
+    ],
+  },
+  "tableColumns": Array [
+    Object {
+      "dataIndex": "displayName",
+      "filterDropdown": [Function],
+      "render": [Function],
+      "sorter": true,
+      "title": "Pie Name",
+    },
+    Object {
+      "dataIndex": "quantity",
+      "render": [Function],
+      "sorter": true,
+      "title": "Quantity",
+    },
+    Object {
+      "dataIndex": "price",
+      "render": [Function],
+      "sorter": true,
+      "title": "Price",
+    },
+    Object {
+      "dataIndex": "isPieOfTheDay",
+      "render": [Function],
+      "sorter": true,
+      "title": "Pie Of The Day",
+    },
+    Object {
+      "dataIndex": "rating",
+      "render": [Function],
+      "title": "Store Rating",
+    },
+    Object {
+      "dataIndex": "address",
+      "render": [Function],
+      "title": "Store Address",
+    },
+  ],
+  "updater": Updater {
+    "_callbacks": Array [],
+    "_renderer": ReactShallowRenderer {
+      "_context": Object {},
+      "_element": <Pies />,
+      "_forcedUpdate": false,
+      "_instance": [Circular],
+      "_newState": Object {
+        "keyword": "",
+        "loading": false,
+        "pagination": Object {
+          "current": 2,
+          "defaultPageSize": 10,
+          "pageSizeOptions": Array [
+            "5",
+            "10",
+            "15",
+          ],
+          "showSizeChanger": true,
+          "total": 28,
+        },
+        "pies": Array [
+          Object {
+            "displayName": "Pork",
+            "id": 1,
+            "price": 400,
+            "priceString": "$4.00",
+            "quantity": 2,
+            "storeId": 2,
+          },
+          Object {
+            "displayName": "Beef and curry",
+            "id": 1,
+            "price": 450,
+            "priceString": "$4.50",
+            "quantity": 1,
+            "storeId": 3,
+          },
+          Object {
+            "displayName": "Chicken",
+            "id": 1,
+            "price": 400,
+            "priceString": "$4.00",
+            "quantity": 5,
+            "storeId": 3,
+          },
+          Object {
+            "displayName": "Beef and bacon",
+            "id": 1,
+            "price": 300,
+            "priceString": "$3.00",
+            "quantity": 2,
+            "storeId": 3,
+          },
+          Object {
+            "displayName": "Beef and curry",
+            "id": 1,
+            "isPieOfTheDay": true,
+            "price": 200,
+            "priceString": "$2.00",
+            "quantity": 1,
+            "storeId": 3,
+          },
+          Object {
+            "displayName": "Chicken",
+            "id": 1,
+            "price": 240,
+            "priceString": "$2.40",
+            "quantity": 5,
+            "storeId": 3,
+          },
+          Object {
+            "displayName": "Beef and bacon",
+            "id": 1,
+            "price": 280,
+            "priceString": "$2.80",
+            "quantity": 2,
+            "storeId": 3,
+          },
+          Object {
+            "displayName": "Beef and curry",
+            "id": 1,
+            "isPieOfTheDay": true,
+            "price": 280,
+            "priceString": "$2.80",
+            "quantity": 1,
+            "storeId": 4,
+          },
+          Object {
+            "displayName": "Chicken",
+            "id": 1,
+            "price": 230,
+            "priceString": "$2.30",
+            "quantity": 5,
+            "storeId": 4,
+          },
+          Object {
+            "displayName": "Beef and bacon",
+            "id": 1,
+            "price": 230,
+            "priceString": "$2.30",
+            "quantity": 1,
+            "storeId": 4,
+          },
+        ],
+        "stores": Array [
+          Object {
+            "address": "410 Collins Street",
+            "city": "Melbourne",
+            "coords": Object {
+              "latitude": "-37.816981",
+              "longitude": "144.9584893",
+            },
+            "displayName": "Eleven-7",
+            "id": 1,
+            "mobile": "0481233123",
+            "postcode": "3000",
+            "rating": 10,
+            "state": "Victoria",
+          },
+          Object {
+            "address": "366 Lonsdale Street",
+            "city": "Melbourne",
+            "coords": Object {
+              "latitude": "-37.8128448",
+              "longitude": "144.9604634",
+            },
+            "displayName": "Brian's Pies",
+            "id": 2,
+            "mobile": "0486162311",
+            "postcode": "3000",
+            "rating": 8,
+            "state": "Victoria",
+          },
+          Object {
+            "address": "410 Collins Street",
+            "city": "Melbourne",
+            "coords": Object {
+              "latitude": "-37.816981",
+              "longitude": "144.9584893",
+            },
+            "displayName": "Eleven-7",
+            "id": 1,
+            "mobile": "0481233123",
+            "postcode": "3000",
+            "rating": 10,
+            "state": "Victoria",
+          },
+          Object {
+            "address": "366 Lonsdale Street",
+            "city": "Melbourne",
+            "coords": Object {
+              "latitude": "-37.8128448",
+              "longitude": "144.9604634",
+            },
+            "displayName": "Brian's Pies",
+            "id": 2,
+            "mobile": "0486162311",
+            "postcode": "3000",
+            "rating": 8,
+            "state": "Victoria",
+          },
+          Object {
+            "address": "345 Bourke Street",
+            "city": "Melbourne",
+            "coords": Object {
+              "latitude": "-37.8130036",
+              "longitude": "144.9646799",
+            },
+            "displayName": "Hungry Jake's",
+            "id": 3,
+            "mobile": "0412512333",
+            "postcode": "3000",
+            "rating": 9,
+            "state": "Victoria",
+          },
+          Object {
+            "address": "211 La Trobe Street",
+            "city": "Melbourne",
+            "coords": Object {
+              "latitude": "-37.8100285",
+              "longitude": "144.9628667",
+            },
+            "displayName": "Texcal",
+            "id": 4,
+            "mobile": "0498124512",
+            "postcode": "3000",
+            "rating": 3,
+            "state": "Victoria",
+          },
+        ],
+      },
+      "_rendered": <React.Fragment>
+        <Table
+          bordered={false}
+          className=""
+          columns={
+            Array [
+              Object {
+                "dataIndex": "displayName",
+                "filterDropdown": [Function],
+                "render": [Function],
+                "sorter": true,
+                "title": "Pie Name",
+              },
+              Object {
+                "dataIndex": "quantity",
+                "render": [Function],
+                "sorter": true,
+                "title": "Quantity",
+              },
+              Object {
+                "dataIndex": "price",
+                "render": [Function],
+                "sorter": true,
+                "title": "Price",
+              },
+              Object {
+                "dataIndex": "isPieOfTheDay",
+                "render": [Function],
+                "sorter": true,
+                "title": "Pie Of The Day",
+              },
+              Object {
+                "dataIndex": "rating",
+                "render": [Function],
+                "title": "Store Rating",
+              },
+              Object {
+                "dataIndex": "address",
+                "render": [Function],
+                "title": "Store Address",
+              },
+            ]
+          }
+          dataSource={
+            Array [
+              Object {
+                "displayName": "Pork",
+                "id": 1,
+                "price": 400,
+                "priceString": "$4.00",
+                "quantity": 2,
+                "storeId": 2,
+              },
+              Object {
+                "displayName": "Beef and curry",
+                "id": 1,
+                "price": 450,
+                "priceString": "$4.50",
+                "quantity": 1,
+                "storeId": 3,
+              },
+              Object {
+                "displayName": "Chicken",
+                "id": 1,
+                "price": 400,
+                "priceString": "$4.00",
+                "quantity": 5,
+                "storeId": 3,
+              },
+              Object {
+                "displayName": "Beef and bacon",
+                "id": 1,
+                "price": 300,
+                "priceString": "$3.00",
+                "quantity": 2,
+                "storeId": 3,
+              },
+              Object {
+                "displayName": "Beef and curry",
+                "id": 1,
+                "isPieOfTheDay": true,
+                "price": 200,
+                "priceString": "$2.00",
+                "quantity": 1,
+                "storeId": 3,
+              },
+              Object {
+                "displayName": "Chicken",
+                "id": 1,
+                "price": 240,
+                "priceString": "$2.40",
+                "quantity": 5,
+                "storeId": 3,
+              },
+              Object {
+                "displayName": "Beef and bacon",
+                "id": 1,
+                "price": 280,
+                "priceString": "$2.80",
+                "quantity": 2,
+                "storeId": 3,
+              },
+              Object {
+                "displayName": "Beef and curry",
+                "id": 1,
+                "isPieOfTheDay": true,
+                "price": 280,
+                "priceString": "$2.80",
+                "quantity": 1,
+                "storeId": 4,
+              },
+              Object {
+                "displayName": "Chicken",
+                "id": 1,
+                "price": 230,
+                "priceString": "$2.30",
+                "quantity": 5,
+                "storeId": 4,
+              },
+              Object {
+                "displayName": "Beef and bacon",
+                "id": 1,
+                "price": 230,
+                "priceString": "$2.30",
+                "quantity": 1,
+                "storeId": 4,
+              },
+            ]
+          }
+          indentSize={20}
+          loading={false}
+          locale={Object {}}
+          onChange={[Function]}
+          pagination={
+            Object {
+              "current": 2,
+              "defaultPageSize": 10,
+              "pageSizeOptions": Array [
+                "5",
+                "10",
+                "15",
+              ],
+              "showSizeChanger": true,
+              "total": 28,
+            }
+          }
+          rowKey={[Function]}
+          showHeader={true}
+          size="default"
+          sortDirections={
+            Array [
+              "ascend",
+              "descend",
+            ]
+          }
+          useFixedHeader={false}
+        />
+      </React.Fragment>,
+      "_rendering": false,
+      "_updater": [Circular],
+    },
+  },
+  Symbol(enzyme.__setState__): [Function],
+}
+`;

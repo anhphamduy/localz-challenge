@@ -1,0 +1,13 @@
+.PageLayout {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    .PageLayout-wrapper {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        min-width: 400px;
+        min-height: 400px;
+        padding: 24px;
+    }
+}
